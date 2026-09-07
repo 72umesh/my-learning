@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Audio</title>
+  </head>
+  <body>
+    <h3>Muted Audio</h3>
+    <audio controls muted src="Attachments/Audio1.wav"></audio>
+
+    <h3>Loop Audio</h3>
+    <audio controls loop src="Attachments/Audio2.wav"></audio>
+
+    <h3>Backup Audio</h3>
+    <audio controls loop>
+        <source src="./Attachments/Audio1.wav">
+        <source src="./Attachments/Audio1.mp3">
+        This browser does not support HTML5 audio
+    </audio>
+  </body>
+</html>

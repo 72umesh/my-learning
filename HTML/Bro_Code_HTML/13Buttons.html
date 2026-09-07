@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Buttons</title>
+</head>
+<body>
+
+    <a href="https://www.google.com">
+
+        <button style="background-color: rgb(30, 22, 22);color: rgb(36, 230, 237);width:250px; height:50px;
+        border-radius: 5px;">Click me</button>
+
+    </a>
+
+    <a href="https://www.google.com">
+
+        <button disabled style="width:250px; height:50px;
+        border-radius: 5px;">Click me not</button>
+
+    </a>
+
+    <br>
+    <br>
+
+    <button onclick="doSomething()" style="width:250px; height:50px;
+        border-radius: 5px;">Click me to do something</button>
+
+    <h2 id="test">Hello</h2>
+
+
+    <script>
+        function doSomething(){
+            document.getElementById("test").innerHTML = "Goodbye"
+        }
+    </script>
+    
+</body>
+</html>
