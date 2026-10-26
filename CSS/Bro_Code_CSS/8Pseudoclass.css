@@ -1,0 +1,38 @@
+a{
+    font-size: 100px;
+}
+button{
+        font-size: 30px;
+    }
+a:link{
+    color:lawngreen;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    color:blue;
+}
+a:active{
+    color: brown;
+}
+button:hover{
+    background-color:aliceblue
+}
+button:active{
+    color: chocolate;
+}
+/*
+li:nth-child(1){
+    background-color: darkgreen;
+}
+li:nth-child(Formula Ex.3n){
+    background-color: darkgreen;
+}
+*/
+li:nth-child(odd){
+    background-color:lightblue;
+}
+li:nth-child(Even){
+    background-color: lightgreen;
+}

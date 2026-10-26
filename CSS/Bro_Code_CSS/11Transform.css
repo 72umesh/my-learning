@@ -1,0 +1,39 @@
+#Box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 200px;
+    text-align: center;
+    background-color: aquamarine;
+
+    /* transform: translateX() 
+       transform: rotateX(angle) 
+       transform: scaleX()
+       in X,Y,Z
+       */
+
+    transform: translateX(100px);
+  
+
+    /* Matrix Contains 
+    scaleX()
+    skewY()
+    skewX()
+    scaleY()
+    translateX()
+    translateY() 
+    */
+
+}
+#Box2{
+    border: 5px solid;
+    width: 500px;
+    height: 250px;
+    font-size: 200px;
+    text-align: center;
+    background-color: aquamarine;
+    margin: 100px;
+
+    transform: skewX(45deg);
+  
+}

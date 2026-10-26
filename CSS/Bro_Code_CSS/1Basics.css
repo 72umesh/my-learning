@@ -1,0 +1,25 @@
+body{
+    background-color:brown;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+p{
+    background-color: rgb(89, 88, 88);
+    color: aqua;
+}
+#p1{
+    color: rgb(226, 213, 73);
+}
+#p2{
+    color: rgb(49, 217, 94);
+}
+#p3{
+    color: rgb(205, 64, 64);
+}
+.odd{
+    color: rgb(0, 136, 255);
+}
+.even{
+    color: rgb(0, 255, 76);
+}

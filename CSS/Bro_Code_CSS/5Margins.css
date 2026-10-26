@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+}
+
+#Box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 25px;
+    background: lightcoral;
+
+    /* 
+    margin-top: 50px
+    margin-left: 50px
+    margin-bottom: 50px
+    margin-right: 50px
+    or all four in one line
+    margin: 50px
+    */
+
+    margin: 50px;
+
+
+}
+#Box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    background: rgb(235, 235, 63);
+
+    margin-right: auto;
+    margin-left: auto;
+}

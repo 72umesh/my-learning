@@ -1,0 +1,13 @@
+.Box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    text-align: center;
+    font-size: 30px;
+    background: lightblue;
+
+    float: left;
+
+    /*To stop floating use clear property*/
+
+}
